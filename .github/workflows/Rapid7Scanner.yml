@@ -1,7 +1,8 @@
 name: R7 Scan
 on:
   push:
-    branches: [ master ]
+    branches-ignore:
+     - master
 jobs:
   scan:
     runs-on: ubuntu-latest
