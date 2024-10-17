@@ -12,7 +12,7 @@ jobs:
         with:
           region: "us"
           api-key: ${{ secrets.GHACTIONSR7API}}
-          scan-config-id: "3e3d9733-d7ca-444f-ab17-ad7bd18e2765"
+          scan-config-id: "a0c1056c-0eae-4ea9-b597-c51742b4e7f3"
           vuln-query: "vulnerability.vulnerabilityScore > 4"
       - name: Upload findings
         if: always()
